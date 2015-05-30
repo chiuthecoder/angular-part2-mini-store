@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-route.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div ng-app='myApp'>
+      <div class="container">
+        <a class="btn btn-default" href="#/">Orders</a>
+        <a class="btn btn-default" href="#/customers">Customers</a>
+        <div ng-view="">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
